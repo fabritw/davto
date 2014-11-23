@@ -15,7 +15,13 @@ body {
   background-color: #436575;
   background-image: none;
 }
-
+.banner,
+.thumb {
+	width: 100%;
+}
+.icons img {
+	width: 20px;
+}
 
 
 
