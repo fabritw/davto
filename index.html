@@ -20,7 +20,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -32,7 +32,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Contact</a></li>
@@ -41,44 +41,50 @@
       </div>
     </div>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron logo-section">
       <div class="container">
-        <img src="img/logo.png" alt="Davto Developments">
-        <div class="">
-          <h2>Contact: 07425 708025</h2>
+        <img class="logo" src="img/logo.png" alt="Davto Developments">
+        <div class="contact">
+          <h2>Contact: <span>07425 708025</span></h2>
           <p>
             <a href="mailto:info@davtodevelopments.com">info@davtodevelopments.com</a>
           </p>
         </div>
       </div>
     </div>
-    <div class="jumbotron">
-      <div class="container">
-        <img class="banner" src="img/banner.jpg" alt="">
-        <h2>Quality Design and Solid Workmanship</h2>
+
+    <div class="main">
+      <div class="jumbotron banner-section">
+        <div class="container">
+          <div class="banner-wrapper shadow">
+            <img class="banner" src="img/banner.jpg" alt="">
+            <h2>Quality Design and Solid Workmanship</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="thumb-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <p><strong>Davto</strong> possess extensive design and construction expertise, and provide a service where we lead the process from inception to completion. Our success is a result of the collaborative working practice between our customers, consultants and project management teams that ensure we achieve high levels of quality in all our projects, and deliver against challenging deadlines.</p>
+            </div>
+            <div class="col-md-4">
+              <img class="thumb shadow" src="img/thumb1.jpg" alt="">
+              <h3>Contemporary Design</h3>
+           </div>
+            <div class="col-md-4">
+              <img class="thumb shadow" src="img/thumb2.jpg" alt="">
+              <h3>London Based</h3>
+            </div>
+          </div>
+        </div> <!-- /container -->
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <p>Davto possess extensive design and construction expertise, and provide a service where we lead the process from inception to completion. Our success is a result of the collaborative working practice between our customers, consultants and project management teams that ensure we achieve high levels of quality in all our projects, and deliver against challenging deadlines.</p>
-        </div>
-        <div class="col-md-4">
-          <img class="thumb" src="img/thumb1.jpg" alt="">
-          <h3>Contemporary Design</h3>
-       </div>
-        <div class="col-md-4">
-          <img class="thumb" src="img/thumb2.jpg" alt="">
-          <h3>London Based</h3>
-        </div>
-      </div>
-    </div> <!-- /container --> 
-
-    <div class="container">
-      <footer>
-        <p>&copy; Davto Developments 2014</p>
+    <div class="footer-section">
+      <footer class="container">
+        <p>&copy; davto developments 2014</p>
         <ul class="icons">
           <li><a href="#twitter"><img src="img/twitter.png" alt="twitter"></a></li>
           <li><a href="#facebook"><img src="img/facebook.png" alt="facebook"></a></li>

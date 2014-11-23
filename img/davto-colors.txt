@@ -1,8 +1,0 @@
-header bar -#426373
-nav links  -#57707a
-logo bar   -#f8f9f9
-background -#cdd9bc
-footer bar -#2e2c2b
-
-
-font- OpenSans, OpenSans Bold

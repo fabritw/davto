@@ -10,7 +10,7 @@ module.exports = function(grunt) {
           interrupt: true,
           livereload: true
         },
-        files: ['index.html']
+        files: ['index.html', 'css/main.css']
       }
     },
     connect: {
